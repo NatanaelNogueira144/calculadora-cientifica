@@ -1,7 +1,7 @@
-## About Scientific Calculator
+## Sobre a Calculadora Científica
 
-This is a simple scientific calculator, developed using HTML, CSS and JavaScript. It has math funcions like sin, cos, tan and log, as well as the main arithmetic operations. 
+Esta é uma calculadora científica simples, desenvolvida com HTML, CSS e JavaScript. Ela possui funções matemáticas como seno, cosseno, tangente e logaritmo, além das principais operações aritméticas.
 
-## How to Use
+## Como Usar
 
-Simply open the "index.html" file in the root folder, and your navigator will open a new tab with the application (prefferably Chrome or Microsoft Edge).
+Basta abrir o arquivo "index.html" na pasta raiz e seu navegador abrirá uma nova aba com o aplicativo (de preferência Chrome ou Microsoft Edge).

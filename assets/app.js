@@ -24,7 +24,7 @@ function calculate() {
         document.getElementById('display').value = result !== undefined ? result : '';
         input = result !== undefined ? String(result) : '';
     } catch (e) {
-        document.getElementById('display').value = "Error";
+        document.getElementById('display').value = "Erro";
         input = '';
     }
 }
