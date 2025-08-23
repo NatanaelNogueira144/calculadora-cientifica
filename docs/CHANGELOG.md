@@ -6,6 +6,7 @@ e esse projeto adere à [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [1.0.1] - 2025-08-04
 ### Adicionado
+- Logo.
 - Traduzido para português.
 - Metas de HTML adicionados.
 
