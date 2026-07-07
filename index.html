@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Calculadora científica com HTML, CSS e JavaScript." />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="manifest" href="./manifest.json" />
-    <link rel="apple-touch-icon" href="./logo192.png" />
-    <link rel="stylesheet" href="./assets/styles.css" />
-    <title>Calculadora Científica</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Calculadora científica com HTML, CSS e JavaScript." />
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="apple-touch-icon" href="./logo192.png" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <title>Calculadora Científica</title>
 </head>
 <body>
-<div class="calc-container">
+  <div class="calc-container">
     <input class="display" id="display" type="text" disabled>
     <div class="btns">
-        <button class="clear" onclick="clearDisplay()">C</button>
-        <button class="function" onclick="press('sin(')">sin</button>
-        <button class="function" onclick="press('cos(')">cos</button>
-        <button class="function" onclick="press('tan(')">tan</button>
-        <button class="function" onclick="press('log(')">log</button>
+      <button class="clear" onclick="clearDisplay()">C</button>
+      <button class="function" onclick="press('sin(')">sin</button>
+      <button class="function" onclick="press('cos(')">cos</button>
+      <button class="function" onclick="press('tan(')">tan</button>
+      <button class="function" onclick="press('log(')">log</button>
 
-        <button onclick="press('7')">7</button>
-        <button onclick="press('8')">8</button>
-        <button onclick="press('9')">9</button>
-        <button class="operation" onclick="press('^')">^</button>
-        <button class="operation" onclick="press('sqrt(')">√</button>
+      <button onclick="press('7')">7</button>
+      <button onclick="press('8')">8</button>
+      <button onclick="press('9')">9</button>
+      <button class="operation" onclick="press('^')">^</button>
+      <button class="operation" onclick="press('sqrt(')">√</button>
 
-        <button onclick="press('4')">4</button>
-        <button onclick="press('5')">5</button>
-        <button onclick="press('6')">6</button>
-        <button class="operation" onclick="press('*')">×</button>
-        <button class="operation" onclick="press('/')">÷</button>
+      <button onclick="press('4')">4</button>
+      <button onclick="press('5')">5</button>
+      <button onclick="press('6')">6</button>
+      <button class="operation" onclick="press('*')">×</button>
+      <button class="operation" onclick="press('/')">÷</button>
 
-        <button onclick="press('1')">1</button>
-        <button onclick="press('2')">2</button>
-        <button onclick="press('3')">3</button>
-        <button class="operation" onclick="press('+')">+</button>
-        <button class="operation" onclick="press('-')">-</button>
+      <button onclick="press('1')">1</button>
+      <button onclick="press('2')">2</button>
+      <button onclick="press('3')">3</button>
+      <button class="operation" onclick="press('+')">+</button>
+      <button class="operation" onclick="press('-')">-</button>
 
-        <button onclick="press('(')">(</button>
-        <button onclick="press('0')">0</button>
-        <button onclick="press(')')">)</button>
-        <button onclick="press('.')">.</button>
-        <button class="equals" onclick="calculate()">=</button>
+      <button onclick="press('(')">(</button>
+      <button onclick="press('0')">0</button>
+      <button onclick="press(')')">)</button>
+      <button onclick="press('.')">.</button>
+      <button class="equals" onclick="calculate()">=</button>
     </div>
-</div>
-<script src="./assets/app.js"></script>
+  </div>
+  <script src="./assets/app.js"></script>
 </body>
 </html>
